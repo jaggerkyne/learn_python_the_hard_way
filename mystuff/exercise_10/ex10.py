@@ -32,10 +32,10 @@ print fat_cat
 #     \\                Backslash(\)
 #     \'                Single-quote(')
 #     \"                Double-quote(")
-#     \a                ASCII bell(BEL)
-#     \b                ASCII backspace(BS)
-#     \f                ASCII formfeed(FF)
-#     \n                ASCII linefeed(LF)
+#     \a                ASCII bell(BEL) - not effect on console
+#     \b                ASCII backspace(BS) - not effect on console
+#     \f                ASCII formfeed(FF) - not effect on console
+#     \n                ASCII linefeed(LF) -> start in a new line
 #     \N{name}          Character named name in the Unicode database(Unicode only)
 #     \r                ASCII carriage return (CR) -> remove everything before \r
 #     \t                ASCII horizontal tab (TAB)
@@ -59,7 +59,7 @@ print "escape double-quote: %s." % "\""
 
 print "escape ASCII Bell(BEL) %s." % "\a"
 
-print "escape ASCII backspace(BS) %s..." % "\b"
+print "escape ASCII backspace(BS) %s......" % "\b"
 
 print "escape ASCII formfeed(FF) %s..." % "\f"
 
