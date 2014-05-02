@@ -8,6 +8,7 @@ __author__ = 'Jagger Kyne'
 
 # In Python 2.7.6, there are difference between input() and raw_input():
 # raw_input() returns a string and input() returns integer or floating number. website: http://www.pythonclub.org/python-basic/input
+# input() function will try to convert things you enter as if they were python code, but this is a security hole.
 
 # raw_input(): https://docs.python.org/2/library/functions.html#raw_input
 # input(): https://docs.python.org/2/library/functions.html#input
