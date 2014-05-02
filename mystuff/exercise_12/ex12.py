@@ -6,6 +6,11 @@ __author__ = 'Jagger Kyne'
 
 # we combine print and raw_input() together.
 age = raw_input("How old are you?")
+
+# above code can be written as:
+# print "How old are you?",
+# age = raw_input()
+
 height = raw_input("How tall are you?")
 weight = raw_input("How much do you weight?")
 
