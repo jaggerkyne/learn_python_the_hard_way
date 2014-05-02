@@ -57,7 +57,7 @@ from sys import argv
 script, first_name, last_name, height, weight = argv
 
 # you raw_input() if you want to input using the keyboard while the script is running.
-first_name = raw_input("What is your first name?")
+first_name = raw_input("What is your first name?") # this is a bad practice, it overrides the command arguments.
 last_name = raw_input("What is your last name?")
 # raw_input("How tall are you?"), height
 # raw_input("How heavy are you?"), weight
