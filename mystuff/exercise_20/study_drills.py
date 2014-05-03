@@ -18,12 +18,12 @@ def print_all(f):
 # rewinding the pointer.
 def rewind(f):
     # call seek() function
-    f.seek(0)
+    f.seek(0) # move the read head to the start of the file. seek() is dealing with bytes, not lines.
 
 # take two arguments, one is line counter, second one is the file to be read.
 def print_a_line(line_count,f):
     #print out line count and the content of the line.
-    print line_count, f.readline()
+    print line_count, f.readline() # readline() returns the \n that's in the file at the end of that line.
 
 # read the input_file and create a file object
 current_file = open(input_file)
