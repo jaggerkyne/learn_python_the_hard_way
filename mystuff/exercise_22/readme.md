@@ -5,7 +5,8 @@ Go back to exercise 1 to exercise 21
 and reread the code and make a list of symbols I have been using so far.
 
 list of symbols:
->	001. = assign value to the left side
+>
+	001. = assign value to the left side
     002. def starting keyword for creating a function
     003. return returns a value
     004. print print something on the screen
@@ -53,3 +54,4 @@ list of symbols:
     046. \\ \ forward sloash
     047. \t tab
     048. # starting of comment
+>
