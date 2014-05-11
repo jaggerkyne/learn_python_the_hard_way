@@ -1,4 +1,4 @@
-# # downloaded from http://learnpythonthehardway.org/book/exercise26.txt
+# # source code downloaded from http://learnpythonthehardway.org/book/exercise26.txt
 #
 # def break_words(stuff):
 #     """This function will break up words for us."""

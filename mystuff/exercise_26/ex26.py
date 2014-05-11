@@ -4,7 +4,7 @@
 __author__ = 'Jagger Kyne'
 
 
-# fixed ex26_original.py
+# fixed the ex26_original.py
 
 def break_words(stuff):
     """This function will break up words for us."""
