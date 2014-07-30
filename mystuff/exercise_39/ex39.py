@@ -83,6 +83,8 @@ __author__ = 'Jagger Kyne'
 
 # 2. Go find the Python documentation for dictionaries (a.k.a. dicts, dict),
 # and try to do even more things to them.
+# http://www.java2s.com/Tutorial/Python/0160__Dictionary/Onetomanydictionary.htm
 
 # 3. Find out what you can't do with dictionaries. A big limitation is that
 # they do not have order, so playing with that.
+# haven't find it.
