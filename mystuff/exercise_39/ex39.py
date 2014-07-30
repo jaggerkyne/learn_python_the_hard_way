@@ -79,7 +79,7 @@ __author__ = 'Jagger Kyne'
 # 1. Do this same kind of mapping with cities and states/regions in
 # your country or in some other country.
 
-# please refer to china_cities.py
+# please refer to chinacities.py
 
 # 2. Go find the Python documentation for dictionaries (a.k.a. dicts, dict),
 # and try to do even more things to them.
@@ -88,3 +88,17 @@ __author__ = 'Jagger Kyne'
 # 3. Find out what you can't do with dictionaries. A big limitation is that
 # they do not have order, so playing with that.
 # haven't find it.
+
+# What the differences between a list and a dictionary?
+# A list is for an ordered list of items. A dictionary uses key:value or key:[value1, value2]
+# pairs to store items.
+
+# What would i use a dictionary for?
+# Use it any time you have to take one value and "look up" another value. Anything is look up tables.
+
+# What would I use a list for?
+# A list is for any sequence of things that need to go in order, and you only need to look them up
+# by a numeric index.
+
+# What if I need a dictionary, but I need it to be in order?
+# Take a look at the collections. OrderDict data structure in python. Search for it online to find the documentation.
