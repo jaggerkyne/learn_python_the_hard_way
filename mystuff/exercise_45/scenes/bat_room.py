@@ -9,4 +9,5 @@ from scene import Scene
 class BatRoom(Scene):
 
     def enter(self):
-        pass
+
+        print "Welcome to the room of Bat!"

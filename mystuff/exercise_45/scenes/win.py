@@ -9,4 +9,7 @@ from scene import Scene
 class Win(Scene):
 
     def enter(self):
-        pass
+
+        print "You just win the game!"
+
+        exit(1)

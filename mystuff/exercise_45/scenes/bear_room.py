@@ -10,5 +10,6 @@ from scene import Scene
 class BearRoom(Scene):
 
     def enter(self):
-        pass
+
+        print "Welcome to the room of Bear!"
 
