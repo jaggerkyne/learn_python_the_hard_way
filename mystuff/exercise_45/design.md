@@ -37,7 +37,7 @@ Map
     - opening_scene
 *Engine
     - play
-*Scene
+*Scenes
     - enter
     *Death
     *GoldRoom

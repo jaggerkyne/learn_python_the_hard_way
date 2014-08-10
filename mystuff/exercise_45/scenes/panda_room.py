@@ -11,3 +11,4 @@ class PandaRoom(Scene):
     def enter(self):
 
         print "Welcome to the room of Panda!"
+        exit(1)
