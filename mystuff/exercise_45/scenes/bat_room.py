@@ -11,3 +11,4 @@ class BatRoom(Scene):
     def enter(self):
 
         print "Welcome to the room of Bat!"
+        return "win"

@@ -8,7 +8,19 @@ from scene import Scene
 # Gold Room
 class GoldRoom(Scene):
 
+
+    if Scene.visit_counter != 0:
+
+        def second_enter(self):
+
+            print "This is your second enter@@@@@@@@@@@@"
+
+            exit(1)
+            pass
+
+
     def enter(self):
+        Scene.visit_counter += 1
         print "After open the door at Gold Room, you saw a room full of gold."
         print "There is no light in the room, but somehow the room is glowing with golden lights."
         print "You see a lot of gold pieces laid on the ground."
