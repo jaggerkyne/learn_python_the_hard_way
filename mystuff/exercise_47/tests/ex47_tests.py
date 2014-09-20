@@ -3,14 +3,18 @@
 # Copyright 2006 - 2014 Jagger Kyne <jagger.kyne@gmail.com>
 __author__ = 'Jagger Kyne'
 
+# import sys
+# sys.path.append('/Users/Wilson/Documents/Sites/python/learn_python_the_hard_way/mystuff/exercise_47/ex47')
 from nose.tools import *
-from ex47.game import Room
+from ..ex47.game import Room ## relative import from different packages
+
+
 
 def test_room():
     gold = Room("GoldRoom", """This room has gold in it you can grab.
                 There's a door to the north.""")
     assert_equal(gold.name, "GoldRoom")
-    assert_equal(gold.paths,[])
+    assert_equal(gold.paths,{})
 
 
 def test_room_paths():

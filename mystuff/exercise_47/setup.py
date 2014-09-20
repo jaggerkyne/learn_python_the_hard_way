@@ -17,7 +17,7 @@ config = {
     'author_email':'jagger.kyne@gmail.com',
     'version':'0.1',
     'install_requires':['nose'],
-    'packages':['exercise.ex47'],
+    'packages':['ex47'],
     'scripts':[],
     'name':'projectname'
 }
