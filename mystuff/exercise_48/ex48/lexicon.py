@@ -46,6 +46,7 @@ def scan(sur_input):
         else:
             sentence = ("error",word)
             result_list.append(sentence)
+
     return result_list
 
 
